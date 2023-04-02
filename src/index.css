@@ -5,3 +5,7 @@
 body {
   @apply bg-gray-900 text-[white];
 }
+
+button {
+  @apply px-[1.5rem] py-[0.5rem] rounded-[1rem] border-[2px] border-[#36d7b7] text-[1rem] hover:bg-[#fff2] transition duration-300;
+}
