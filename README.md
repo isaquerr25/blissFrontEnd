@@ -1,4 +1,4 @@
-# blissFrontEnd
+# FRONTEND RECRUITMENT DELIVERY
 
 This is a basic guide to getting started with the React project and installing all the necessary packages.
 
@@ -9,12 +9,12 @@ Download or clone the project repository.
 
 Open a terminal in the project directory.
 
-Run the command npm install to install all dependencies.
+Run the command "npm install" to install all dependencies.
 
-Run the command npm start to start the local server.
+Run the command "npm dev" to start the local server.
 
-Open your browser at http://localhost:5173 to view the running project.
+Open your browser at "http://localhost:5173" to view the running project.
 
 Check the package.json file to see the list of installed dependencies.
 
-We hope this guide helps you get started with the React project. If you need further assistance, please do not hesitate to contact the development team.
+We hope this guide helps you get started with the React project. If you need further assistance, please do not hesitate to contact email:isaqueribeiro964@gmail.com.
