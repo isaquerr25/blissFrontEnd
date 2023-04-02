@@ -27,9 +27,11 @@ function Health() {
         </button>
       </div>
     );
+  } else {
+    navigate("/questions");
   }
 
-  return <div>ok</div>;
+  return <div></div>;
 }
 
 export default Health;
