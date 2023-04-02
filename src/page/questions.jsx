@@ -36,7 +36,7 @@ function Questions() {
     navigate(`/questions?filter=${e.target.filter.value}`);
   };
 
-  if (filter === '') {
+  if (filter === '' && inputRef.current) {
     inputRef.current.focus();
   }
 

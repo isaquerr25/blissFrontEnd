@@ -31,3 +31,19 @@ export const postShareEmail = ({ queryKey }) => {
     })
     .then((response) => response.data);
 };
+
+export const putQuestionById = ({ queryKey }) => {
+  const [_, { questionId, data }] = queryKey;
+
+  return api
+    .put(`/questions/${questionId}`, {
+      data,
+    })
+    .then((response) => response.data);
+};
+
+export const getQuestionById = ({ queryKey }) => {
+  const [_, id] = queryKey;
+
+  return api.get(`/questions/${id}`).then((response) => response.data);
+};
