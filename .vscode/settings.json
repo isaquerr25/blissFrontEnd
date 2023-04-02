@@ -1,11 +1,10 @@
 {
   "css.lint.unknownAtRules": "ignore",
-  "javascript.suggest.autoImports": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "django-html": "html",
     "postcss": "css"
-  }
+  },
+  "cSpell.words": ["tanstack"]
 }
