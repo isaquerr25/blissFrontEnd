@@ -11,7 +11,7 @@ Open a terminal in the project directory.
 
 Run the command "npm install" to install all dependencies.
 
-Run the command "npm dev" to start the local server.
+Run the command "npm run dev" to start the local server.
 
 Open your browser at "http://localhost:5173" to view the running project.
 
